@@ -21,14 +21,14 @@ h1 {
   width: 40rem;
   height: 60px;
   background-color: #a7a7a7;
+  overflow: hidden;
 }
 
 .progress {
-  width: 5%;
+  width: 0%;
   height: 100%;
   background-color: #a12d9c;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  color: #fff;
   border-radius: 0 50px 50px 0;
+  left: 10px;
 }/*# sourceMappingURL=style.css.map */
