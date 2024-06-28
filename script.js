@@ -1,9 +1,9 @@
 
 
-function start(progressPercent) {
+function start(progressPercent, changingSpeed) {
     const progress = document.querySelector('.progress');
     let width = 0;
-    const timeInterval = setInterval(fill , 10);
+    const timeInterval = setInterval(fill , changingSpeed);
 
     function fill(progressPercent){
         if(width >= progressPercent){
@@ -20,4 +20,4 @@ function start(progressPercent) {
         }
     }
 }
-start(100);
+start(100, 10);
